@@ -9,12 +9,14 @@ failed: No such file or directory
 
 ```bash
 pscp "C:\Users\G198\Desktop\test.txt" sdf4h@ip:/home/sdf4h
-Отправить файл на сервер (винда)
+Отправить файл на сервер 
 ```
+(винда)
 ```bash
 pscp sdf4h@ip:/home/sdf4h/имя_файла "C:\Users\G198\Desktop\"
-Скачать файл с сервера (винда)
+Скачать файл с сервера 
 ```
+(винда)
 ```bash
 scp -r sdf4h@192.168.1.44:/home/sdf4h/doc ~/Documents/
 Скачать файл с сервера на мак (мак)
